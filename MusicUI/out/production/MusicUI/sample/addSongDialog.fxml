@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.AddSongController"
+            prefHeight="400.0" prefWidth="600.0">
+    <headerText>
+        Fill all fields
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Song Title:" GridPane.rowIndex="0" GridPane.columnIndex="0" wrapText="true"/>
+            <TextField fx:id="titleField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Track (number):" GridPane.rowIndex="1" GridPane.columnIndex="0" wrapText="true"/>
+            <TextField fx:id="trackField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <Label text="Album Name:" GridPane.rowIndex="2" GridPane.columnIndex="0" wrapText="true"/>
+            <TextField fx:id="albumField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label text="Artist Name:" GridPane.rowIndex="3" GridPane.columnIndex="0" wrapText="true"/>
+            <TextField fx:id="artistField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+
+</DialogPane>
